@@ -8,7 +8,7 @@ public class Main {
         Human ayush = new Human(20, "ayush singh", 50000, false);
 
         System.out.println(kunal.name);
-        System.out.println(ayush .population);
+        System.out.println(ayush.population);
         System.out.println(Human.population);// this is preferred to call static variable
 
         // only static functions are allowed in static as it requires an instance
